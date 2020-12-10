@@ -1,0 +1,61 @@
+matplotlib 라이브러리는
+파이썬에서 2D형태의 그래프, 이미지를 출력할때 사용
+
+기초적인 사용방법 3단계
+1. import matplotlib.pyplot as plt
+# plt 라이브러리를 가져오고
+
+2. plt.plot ( [x축 데이터들]. [y축 데이터들] )
+# plot함수에 데이터 입력하고
+
+3. plt.show()
+# 그래프 출력하기
+
+< Value Error 조심 >
+x데이터와 y데이터의 개수가 맞지 않으면 ValueError 발생
+
+추가적으로 주피터에서 실행할 때 그래프가 출력되지 않으면
+ % matplotpib inline
+을 코드의 맨 위에 추가하면 된다.
+
+<plt.legend 출력 위치>
+범례의 출력 위치 관련
+plt.legend(loc = '내가 원하는 것' )
+
+여기서 '내가 원하는 것' 에는 무엇이 들어갈 수 있을까?
+
+1. best ( loc = best )
+컴퓨터가 자동으로 계산하여 적절한 위치에 범례를 위치시킨다.
+
+2. 대략적인 위치 명시
+upper left, upper center, upper right
+center left, center, centerright, right
+lower left, lower center, lower right
+이러한 것들이 위치할 수 있다. 당연히 위치는 단어의 뜻과 같다. 그래프의 출력 위치에 상대적인 표현이다.
+
+3. 구체적인 위치 명시
+legend( bbox_anchor = (x, y, width, height) )
+위와 같이 내가 원하는 위치(x,y)에 어떠한 크기(width, height)로 넣을지 지정할 수 있다.
+
+4. 숫자 약어로 위치 명시
+1 : upper right
+2 : upper left
+3 : lower left
+4 : lower right
+5 : right = center right
+6 : center left
+7 : center right
+8 : lower center
+9 : upper center
+10 : center
+0 : 그래프에 따라 자동 위치 선정
+
+<그래프의 색상>
+색상을 표현할때 기본색에 대해 약자 표기 가능
+r : red
+g : green
+b : blue
+k : black
+y : yellow
+
+
