@@ -1,0 +1,1 @@
+{'access_token': " 각자의 access_token 이 부분은 1~4의 과정을 통해 각자 받은 고유의 토큰, 보안상 문제로 공개불가",  'token_type': 'bearer', 'refresh_token': " 이 부분도 access_token 과 관련있어서 공개 불가, 참고로 access_token의 유효기간이 지나면 refresh_token으로 재발급해야함", 'expires_in': 21599, 'scope': 'account_email talk_message profile', 'refresh_token_expires_in': 5183999}
