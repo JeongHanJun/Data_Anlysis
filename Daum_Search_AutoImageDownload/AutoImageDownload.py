@@ -1,8 +1,8 @@
-# Kakao OpenAPI 를 이용항 다음검색에서의 이미지 검색 후 원하는 키워드에 대한 이미지들을 자동 다운로드
+# Kakao OpenAPI 를 이용한 다음검색에서의 이미지 검색 후 원하는 키워드에 대한 이미지들을 자동 다운로드
 
 import requests
-
-# 74da0ad1a183f832922bccb7f8dc61b6
+# 2021.06.15 수정내용
+# 개인정보보호를 위해 RREST API키를  "REST_API_KEY"로 표시
 '''
     GET /v2/search/image HTTP/1.1
     Host: dapi.kakao.com
@@ -11,7 +11,7 @@ import requests
 
 url = "https://dapi.kakao.com/v2/search/image"
 headers = {
-    "Authorization" : "KakaoAK 74da0ad1a183f832922bccb7f8dc61b6"
+    "Authorization" : "KakaoAK" + "REST_API_KEY"# REST_API_KEY는 개인정보이므로 Kakao Developers - 내 애플리케이션 - 앱 설정 - 요약정보 에 들어가면 앱 에 REST API키를 알 수 있다.
 }
 data = {
     "query" : "라이언"
