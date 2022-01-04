@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20194.20.0125.0835                               -->
+<mapsource inline='true' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapAttribution2 />
+    <MapboxVectorBuiltInAndUserStyles />
+  </document-format-change-manifest>
+  <connection api-key='pk.eyJ1Ijoic2hhbm55OTciLCJhIjoiY2p6MHp6ZGEzMDl4cjNjczBqcjZwMTNmcCJ9.T11Jo-Xw5yvIvC3sW4fM2A' class='CustomMapbox' description='' full-url='' inline='true' offline='' port='443' server='https://api.mapbox.com' url='styles/v1' url-format='/styles/v1/shanny97/{L}/tiles/{Z}/{X}/{Y}{D}?access_token=pk.eyJ1Ijoic2hhbm55OTciLCJhIjoiY2p6MHp6ZGEzMDl4cjNjczBqcjZwMTNmcCJ9.T11Jo-Xw5yvIvC3sW4fM2A' username='shanny97' wait-tile-color='#dddddd' />
+  <languages />
+  <layers>
+    <layer display-name='Basic-copy-copy' name='ck6vxld5n0x9r1jqmxxb2pmn3' show-ui='true' type='features' />
+  </layers>
+  <properties />
+  <map-styles>
+    <map-style display-name='PINK' name='mapbox://styles/shanny97/ck6vxld5n0x9r1jqmxxb2pmn3' wait-tile-color='#dddddd'>
+      <map-layer-style name='Basic-copy-copy' request-string='ck6vxld5n0x9r1jqmxxb2pmn3' />
+    </map-style>
+  </map-styles>
+  <mapsource-defaults version='18.1'>
+    <style>
+      <style-rule element='map'>
+        <format attr='map-style' value='mapbox://styles/shanny97/ck6vxld5n0x9r1jqmxxb2pmn3' />
+        <format attr='washout' value='0' />
+      </style-rule>
+    </style>
+  </mapsource-defaults>
+  <map-attribution copyright-string='© %1 Mapbox' copyright-url='https://mapbox.com/about/maps' short-copyright-string='© Mapbox' />
+  <map-attribution2 copyright-string='© OpenStreetMap' copyright-url='https://mapbox.com/about/maps' short-copyright-string='© OSM' />
+</mapsource>
